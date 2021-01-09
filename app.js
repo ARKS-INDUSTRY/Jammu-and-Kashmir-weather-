@@ -1,4 +1,3 @@
-button.addEventListener('submit', function(){
 formcarry({
     form: "Pi7ljF3MZB",
     // id or the class name of the form element, only form element allowed
@@ -21,4 +20,3 @@ formcarry({
       alert(error)
     }
   });
-}
