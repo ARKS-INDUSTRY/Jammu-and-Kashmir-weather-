@@ -1,3 +1,9 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
 nav {
     background: rgb(35, 185, 211);
     font-family: Arial, Helvetica, sans-serif;
@@ -58,7 +64,7 @@ body {
     color: white;
     text-align: center;
     position: relative;
-    top: 335px;
+    top: 1445px;
     width: 100%;
 }
 
@@ -68,7 +74,7 @@ body {
     background: rgb(36, 33, 33);
     height: 35%;
     position: relative;
-    top: 335px;
+    top: 1455px;
     width: 100%;
     display: flex;
     text-shadow: 2px 2px 5px red;
@@ -231,6 +237,8 @@ body {
   flex-wrap: wrap;
   margin: 5px;
   padding: 5px;
+  position: relative;
+  top: 330px;
 }
 
 .gallery img{
@@ -247,32 +255,6 @@ width: 65%;
   border-radius: 10px;
   height: 35%;
   }
-
-.footer2{
-    font-family: 'Nunito',monospace;
-    color:#e7e7e7;
-    background: rgb(36, 33, 33);
-    height: 35%;
-    position: relative;
-    top: 330px;
-    width: 100%;
-    display: flex;
-    text-shadow: 2px 2px 5px red;
-    font-size: 20px;
-
-}
-
-.copy1{
-    padding: 10px;
-    background-color: rgb(51, 51, 51);
-    font-size: 15px;
-    font-family: 'Langar',cursive;
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 330px;
-    width: 100%;
-}
 
 .drop-down{
   color: white;
